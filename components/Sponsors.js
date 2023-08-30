@@ -6,7 +6,7 @@ const Sponsors = () => {
     <>
       <div className="flex flex-col justify-around items-center align-middle my-4">
     <h1 className=" font-semibold font-sans text-4xl p-8 text-white">Sponsors</h1>
-    <h1 className=" font-semibold font-sans text-2xl p-8 text-white">Gold</h1>
+    <h1 className=" font-semibold font-sans text-2xl py-4 text-white">Gold</h1>
       <div className="flex flex-wrap items-center align-middle justify-around">
       
         <Image
@@ -24,7 +24,7 @@ const Sponsors = () => {
           alt="CMCPAC"
         />
       </div>
-      <h1 className=" font-semibold font-sans text-2xl p-8 text-white">Silver</h1>
+      <h1 className=" font-semibold font-sans text-2xl py-12 text-white">Silver</h1>
       <div className="flex flex-wrap items-center align-middle justify-around">
         <Image
           className="mx-10 my-10"

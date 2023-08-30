@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <div className="flex flex-wrap bg-[#0c0c0c] justify-evenly p-4 text-white md:">
-        <h1 className="text-4xl font-bold p-8">Hacking Health 1.0</h1>
+        <h1 className="text-4xl font-bold p-8">Hacking Health</h1>
         <div className="flex flex-col align-middle justify-center">
           <div className="text-white leading-8">
             <a href="/">About</a>
