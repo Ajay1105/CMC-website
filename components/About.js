@@ -11,11 +11,7 @@ const About = () => {
             rutrum. Donec eu nunc eu neque commodo iaculis vel sed mi. Proin non
             condimentum purus. Suspendisse egestas lacinia erat, id fermentum
             quam scelerisque et. Phasellus dapibus nec enim id pulvinar. Nulla
-            luctus nec diam ut pharetra. Nullam blandit imperdiet venenatis. In
-            scelerisque nisl erat, vel luctus ex porta et. Nullam malesuada odio
-            quis elit scelerisque elementum. Nunc ornare cursus vulputate.
-            Nullam blandit imperdiet venenatis. In scelerisque nisl erat, vel luctus ex porta et. Nullam malesuada odio
-            quis elit scelerisque elementum. Nunc ornare cursus vulputate.
+            luctus nec diam ut pharetra.
           </p>
 
         </div>
