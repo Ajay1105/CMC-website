@@ -14,7 +14,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="relative bg-[#010E15]">
+    <div className="relative bg-[#010E15] overflow-hidden">
       <Image
         src={Glow}
         width={600}
@@ -37,13 +37,13 @@ export default function Home() {
         src={Glow}
         width={600}
         height={600}
-        className="absolute top-[48%] right-0 z-0 overflow-hidden -rotate-90"
+        className="absolute top-[48%] right-[-10%] z-0 overflow-hidden -rotate-90"
       />
       <Image
         src={Glow}
         width={400}
         height={400}
-        className="absolute top-[85%] right-0 md:right-[30%] lg:right-[40%] z-0 overflow-hidden "
+        className="absolute top-[90%] right-0 md:right-[30%] lg:right-[40%] z-0 overflow-hidden "
       />
       <div className="z-10 relative">
         <Navbar />
