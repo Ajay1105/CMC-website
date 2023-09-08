@@ -1,4 +1,4 @@
-import { MedicalShield, Arduino, RoboticArm } from "@/assests";
+import { MedicalShield, Arduino, RoboticArm, logo } from "@/assests";
 import Image from "next/image";
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       <div className="flex text-white text-4xl md:text-7xl font-bold px-23 mx-3 mt-40 translate-y-204 justify-center align-middle text-center">
-        HACKING HEALTH
+      HACKING HEALTH
       </div>
       <div className="flex text-white text-xl md:text-3xl font-normal px-23 mx-3 mt-7 translate-y-204 justify-center align-middle text-center">
         Code a Better Future at Hacking Health!
