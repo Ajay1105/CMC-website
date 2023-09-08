@@ -1,4 +1,4 @@
-import { Rtist, CMCPAC } from "@/assests";
+import { Rtist, CMCPAC, devfolio } from "@/assests";
 import Image from "next/image";
 
 const Sponsors = () => {
@@ -7,8 +7,15 @@ const Sponsors = () => {
       <h1 className=" font-semibold font-sans text-4xl p-8 text-white">
         Sponsors
       </h1>
+      <Image
+            className="mx-20 my-20"
+            src={devfolio}
+            height={250}
+            width={250}
+            alt="CMCPAC"
+          />
       <h1 className=" text-5xl font-semibold text-white mb-20">
-        To be announced...
+        More to be announced...
       </h1>
     </div>
 

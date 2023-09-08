@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Hero from './Hero';
+import Hero from './Hero.jsx';
 import About from './About';
 import Prize from './Prizes';
 import Timeline from './Timeline';
