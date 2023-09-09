@@ -1,9 +1,9 @@
-import { Rtist, CMCPAC, devfolio } from "@/assests";
+import { Rtist, CMCPAC, devfolio, polygon, solana, replit, filecoin } from "@/assests";
 import Image from "next/image";
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-col justify-around items-center align-middle my-4">
+    <div className="flex flex-wrap justify-around items-center align-middle my-4">
       <h1 className=" font-semibold font-sans text-4xl p-8 text-white">
         Sponsors
       </h1>
@@ -12,7 +12,35 @@ const Sponsors = () => {
             src={devfolio}
             height={250}
             width={250}
-            alt="CMCPAC"
+            alt="DEVFOLIO LOGO"
+          />
+          <Image
+            className="mx-20 my-20"
+            src={solana}
+            height={250}
+            width={250}
+            alt="SOLANA LOGO"
+          />
+          <Image
+            className="mx-20 my-20"
+            src={replit}
+            height={250}
+            width={250}
+            alt="REPLIT LOGO"
+          />
+          <Image
+            className="mx-20 my-20"
+            src={filecoin}
+            height={250}
+            width={250}
+            alt="FILECOIN LOGO"
+          />
+          <Image
+            className="mx-20 my-20"
+            src={polygon}
+            height={250}
+            width={250}
+            alt="POLYGON LOGO"
           />
       <h1 className=" text-5xl font-semibold text-white mb-20">
         More to be announced...

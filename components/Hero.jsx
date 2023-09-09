@@ -1,4 +1,4 @@
-import { MedicalShield, Arduino, RoboticArm, logo } from "@/assests";
+import { MedicalShield, Arduino, RoboticArm, devfolio } from "@/assests";
 
 import dynamic from 'next/dynamic'
  

@@ -1,8 +1,7 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Devfolio = () => {
-    
         useEffect(() => {
           const script = document.createElement("script");
           script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -16,11 +15,11 @@ const Devfolio = () => {
 
   return (
     <div>
-    <div
-          class="apply-button"
-          data-hackathon-slug="hackinghealth2023"
-          data-button-theme="dark-invereted"
-          style={{height: "44px", width: "312px"}}
+        <div
+        class="apply-button"
+        data-hackathon-slug="hackinghealth2023"
+        data-button-theme="dark-invereted"
+        style={{height: "44px", width: "312px"}}
         ></div>
     </div>
   )
