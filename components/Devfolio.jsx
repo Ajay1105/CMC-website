@@ -17,7 +17,7 @@ const Devfolio = () => {
     <div>
         <div
         class="apply-button"
-        data-hackathon-slug="hackinghealth2023"
+        data-hackathon-slug="hacking-health-2023"
         data-button-theme="dark-invereted"
         style={{height: "44px", width: "312px"}}
         ></div>
