@@ -1,19 +1,12 @@
-"use client";
 import { MedicalShield, Arduino, RoboticArm, logo } from "@/assests";
+
+import dynamic from 'next/dynamic'
+ 
+const NoSSR = dynamic(() => import('./Devfolio.jsx'), { ssr: false })
+
 import Image from "next/image";
-import { useEffect } from "react";
 
 const Hero = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <>
@@ -37,9 +30,9 @@ const Hero = () => {
           Code a Better Future at Hacking Health!
         </div>
       </div>
-      
-      <div className="flex flex-wrap mb-40 mt-40 text-base align-middle justify-evenly">
 
+      <div className="flex flex-wrap mb-40 mt-40 text-base align-middle justify-evenly">
+        <NoSSR/>
 
         <div className=" text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
           <a href="Devfolio-link">Join Discord</a>
