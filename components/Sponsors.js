@@ -4,9 +4,12 @@ import Image from "next/image";
 const Sponsors = () => {
   return (
     <div className="flex flex-wrap justify-around items-center align-middle my-4">
-      <h1 className=" font-semibold font-sans text-4xl p-8 text-white">
+      <div className="">
+         <h1 className=" font-semibold font-sans text-4xl p-8 text-white">
         Sponsors
       </h1>
+      </div>
+     
       <Image
             className="mx-20 my-20"
             src={devfolio}
