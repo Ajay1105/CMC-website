@@ -21,28 +21,29 @@ export default function Home() {
         src={Glow}
         width={600}
         height={600}
-        className="absolute top-[18%] md:left-[40%] z-0 overflow-hidden rotate-180"
+        className="absolute top-[18%] md:left-[40%] z--1 overflow-hidden rotate-180"
       />
       <Image
         alt="alr"
         src={Glow}
         width={500}
         height={500}
-        className="absolute top-[23%] -left-10 z-0 overflow-hidden rotate-90"
+        className="absolute top-[23%] -left-10 z--1 overflow-hidden rotate-90"
       />
       <Image
         alt="alr"
         src={Glow}
         width={500}
         height={500}
-        className="absolute top-[58%] -left-10 z-0 overflow-hidden rotate-90"
+        className="absolute top-[58%] -left-10 z--1 overflow-hidden rotate-90"
       />
+   
       <Image
         alt="alr"
         src={Glow}
         width={600}
         height={600}
-        className="absolute top-[48%] right-[-10%] z-0 overflow-hidden -rotate-90"
+        className="absolute top-[48%] right-[-10%] z--1 overflow-hidden -rotate-90"
       />
       <Image
         alt="alr"
