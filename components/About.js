@@ -10,13 +10,14 @@ const About = () => {
             the field of medicine such as advanced diagnostic tools, end-to-end
             drug discovery and development, improving communication between
             physician and patient, transcribing medical documents, telemedicine
-            and robotics. Christian Medical College Ludhiana and Dr. BR Ambedkar
+            and robotics. Christian Medical College Ludhiana and Dr. B.R. Ambedkar
             National Institute of Technology, Jalandhar are jointly organizing
             an event hackathon aimed at making technological innovation in the
             field of Medicine. The future of medicine is to be shaped and formed
             by research and innovation. The event aims at boosting technological
-            innovation in healthcare and wellness as a whole. The teams
-            constituting of both medical and engineering students shall work to
+            innovation in healthcare and wellness as a whole. 
+            <br></br>
+            The teams constituting of both medical and engineering students shall work to
             tackle problem statements with novel solutions. The hackathon aims
             to take advantage of this overlap between the medical and technology
             fields for the betterment of healthcare facilities on a global

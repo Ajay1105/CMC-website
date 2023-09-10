@@ -35,7 +35,7 @@ const Hero = () => {
         <NoSSR/>
 
         <div className=" text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
-          <a href="Devfolio-link">Join Discord</a>
+          <a href="discord-link">Join Discord</a>
         </div>
       </div>
     </>
