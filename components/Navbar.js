@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between px-4 font-sans font-bold text-white">
-      <p className="p-4 text-2xl md:py-3">Rtist X PAC</p>
+      <p className="p-4 text-2xl md:py-3">Rtist X CPAC</p>
       <ul className="hidden md:flex flex-row justify-between w-1/3 text-lg items-center md:visible md:z-1000 ">
         <li className="hover:text-stone-400 px-2">
           <ScrollLink
