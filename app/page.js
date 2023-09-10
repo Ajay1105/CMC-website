@@ -41,8 +41,8 @@ export default function Home() {
       />
       <Image
         src={Glow}
-        width={400}
-        height={400}
+        width={500}
+        height={500}
         className="absolute top-[90%] right-0 md:right-[30%] lg:right-[40%] z-0 overflow-hidden "
       />
       <div className="z-10 relative">
