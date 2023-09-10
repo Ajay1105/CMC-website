@@ -3,25 +3,13 @@ import React, { useState } from "react";
 
 let qa = [
     {
-        ques: " Demo Question 1",
-        ans: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et adipiscing elit Ut et massa mi. Aliquam in hendrerit urna."
+        ques: "I'm a medical student and I don't know coding. Can I take part in this competition?",
+        ans: "Yes sure, the whole idea of this hackathon is to integrate the skills of medical and engineering students. Although as a medical student, if you don't know coding you can participate in the hackathon in collaboration with the engineering students who'll be able to provide the required technical skills."
     },
     {
-        ques: "This is question 2 ",
-        ans: " demo answer 2"
+        ques: "I have never taken part in any hackathons. I don't know where to start?",
+        ans: "This hackathon provides you to work from scratch with just a simple idea, after registration you'll be working with a team of competent medical and engineering students helping each other as a team. Also there's a dedicated online workshop to help you more in this field which will be beneficial for you in this competition as well as future."
     },
-    {
-        ques: "This is question 3",
-        ans: "This is answer 3"
-    },
-    {
-        ques: "This is question 4",
-        ans: "This is answer 4"
-    },
-    {
-        ques: "This is question 5",
-        ans: "This is answer 5"
-    }
 ]
 
 let FAQ = function () {
@@ -51,7 +39,7 @@ let FAQ = function () {
             <h1 className="text-white text-2xl md:text-4xl font-bold items-center pb-4 text-center ">FAQs</h1>
             <div className="h-[332px] mb-10 p-6 md:h-80 md:px-10 md:pt-10 md:pb-16 sm:w-8/12 flex flex-col justify-items-center items-center">
                 <h2 className="p-4 text-2xl text-center text-white"><b>{qa[index].ques}</b></h2>
-                <h3 className="text-center self-start text-lg text-white">{qa[index].ans}</h3>
+                <h3 className="text-justify mt-10 self-start text-lg text-white">{qa[index].ans}</h3>
             </div>
             <div className="w-[60%] h-4 relative">
                 <div className="w-[98px] h-[60px] absolute -top-6 left-[50%] -translate-x-[50%] rounded-full flex justify-center gap-3  items-center borde">
