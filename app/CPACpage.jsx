@@ -1,19 +1,8 @@
 import Image from "next/image";
 import { Glow } from "@/assests";
+import { Navbar, Footer, CPACinfo } from "@/components";
 
-import {
-  Navbar,
-  Prize,
-  Organizers,
-  Timeline,
-  FAQ,
-  About,
-  Hero,
-  Sponsors,
-  Footer,
-} from "@/components";
-
-export default function Home() {
+export default function CPACpage() {
   return (
     <div className="relative bg-[#010E15] overflow-hidden">
       <Image
@@ -37,7 +26,6 @@ export default function Home() {
         height={500}
         className="absolute top-[58%] -left-10 z--1 overflow-hidden rotate-90"
       />
-   
       <Image
         alt="alr"
         src={Glow}
@@ -54,21 +42,7 @@ export default function Home() {
       />
       <div className="z-10 relative">
         <Navbar />
-        <Hero />
-        <div id="about">
-          <About />
-        </div>
-        <Prize />
-        <div id="timeline">
-          <Timeline />
-        </div>
-          <Sponsors />
-        <div id="faq">
-          <FAQ />
-        </div>
-        <div id="organizers">
-          <Organizers />
-        </div>
+        <CPACinfo />
         <Footer />
       </div>
     </div>
