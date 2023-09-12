@@ -1,36 +1,37 @@
 import Image from "next/image";
+import {alz, tb, touch, silai, covid, cancer, buddy, hackathon,} from '@/assests'
 
 export default function CPACinfo() {
   const data = [
     {
       id: "0",
-      imglink: " ",
+      imglink: alz,
       event: "Navigating Alzheimer's: Solving the Diagnostic puzzle",
     },
     {
       id: "1",
-      imglink: " ",
+      imglink: buddy,
       event: "Buddy Behen Menstrual Awareness ",
     },
     {
       id: "2",
-      imglink: " ",
+      imglink: covid,
       event: "Covid Awareness Event",
     },
     {
       id: "3",
-      imglink: " ",
+      imglink: cancer,
       event:
         "Covid-19 and Breast Cancer Awareness Event at Khalsa College for Women",
     },
     {
       id: "4",
-      imglink: " ",
+      imglink: tb,
       event: "Tuberculosis awareness event",
     },
     {
       id: "5",
-      imglink: " ",
+      imglink: silai,
       event:
         "Covid and Reproductive Health Awareness Event (at Silai centre) of Udaan NGO.",
     },
@@ -63,7 +64,7 @@ export default function CPACinfo() {
             <div className="">
               
               <div className="Atitle">
-                <img className="">{d.imglink}</img>
+                <Image src={d.imglink} height={200} width={200} alt="image"/>
               </div>
 
               <div className="">

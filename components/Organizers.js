@@ -19,7 +19,7 @@ const Organizers = () => {
             alt="Rtist"
           />
           <div className=" text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
-            <a href="discord-link">About Rtist</a>
+            <a href="/rtist">About Rtist</a>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ const Organizers = () => {
             alt="CMCPAC"
           />
           <div className=" text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
-            <Link href="../app/CMCpage">About CPAC</Link>
+            <Link href="/pac">About PAC</Link>
           </div>
         </div>
       </div>

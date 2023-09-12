@@ -8,5 +8,6 @@ import FAQ from './FAQ';
 import Organizers from "./Organizers";
 import Footer from './Footer';
 import Devfolio from "./Devfolio";
+import CPACinfo from "./CPACinfo";
 
-export {Navbar, Hero, About, Prize, Timeline, Sponsors, FAQ, Organizers, Footer, Devfolio};
+export {Navbar, Hero, About, Prize, Timeline, Sponsors, FAQ, Organizers, Footer, Devfolio, CPACinfo};

@@ -6,6 +6,8 @@ import {
   solana,
   replit,
   filecoin,
+  amura,
+  mice
 } from "@/assests";
 import Image from "next/image";
 
@@ -52,6 +54,20 @@ const Sponsors = () => {
         height={250}
         width={250}
         alt="POLYGON LOGO"
+      />
+      <Image
+        className="mx-10 my-10"
+        src={amura}
+        height={250}
+        width={250}
+        alt="AMURA LOGO"
+      />
+      <Image
+        className="mx-10 my-10"
+        src={mice}
+        height={250}
+        width={250}
+        alt="MICE LOGO"
       />
       </div>
       <h1 className=" text-3xl font-semibold text-white pt-12 mb-24">
