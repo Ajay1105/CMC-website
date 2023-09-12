@@ -18,7 +18,7 @@ const Sponsors = () => {
         Sponsors
       </h1>
       <div className="flex flex-row flex-wrap justify-around items-center align-middle my-4">
-      <div className="box glowing rounded-lg">
+      <div className="box ml-16 mr-16 mt-16 mb-16 glowing rounded-lg">
       <Image
       className="rounded-lg"
       src={amura}
@@ -27,7 +27,7 @@ const Sponsors = () => {
       alt="AMURA LOGO"
       />
       </div>
-        <div className="box glowing rounded-lg">
+        <div className=" ml-16 mr-16 box glowing rounded-lg">
         <Image
         className="rounded-lg"
         src={mice2}
