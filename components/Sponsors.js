@@ -7,68 +7,68 @@ import {
   replit,
   filecoin,
   amura,
-  mice
+  mice,
 } from "@/assests";
 import Image from "next/image";
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-around items-center align-middle my-4">
-      
-        <h1 className=" font-bold font-sans text-4xl p-12 text-white">
-          Sponsors
-        </h1>
-
+    <div className="flex flex-col flex-wrap justify-around items-center align-middle my-4">
+      <h1 className=" font-bold font-sans text-4xl p-12 text-white">
+        Sponsors
+      </h1>
+      <div className="flex flex-row flex-wrap justify-around items-center align-middle my-4">
+        <Image
+          className="mx-10 my-10"
+          src={amura}
+          height={250}
+          width={250}
+          alt="AMURA LOGO"
+        />
+        <Image
+          className="mx-10 my-10"
+          src={mice}
+          height={250}
+          width={250}
+          alt="MICE LOGO"
+        />
+      </div>
       <div className="flex flex-wrap justify-around items-center align-middle">
-      <Image
-        className="mx-10 my-10"
-        src={devfolio}
-        height={250}
-        width={250}
-        alt="DEVFOLIO LOGO"
-      />
-      <Image
-        className="mx-10 my-10"
-        src={solana}
-        height={250}
-        width={250}
-        alt="SOLANA LOGO"
-      />
-      <Image
-        className="mx-10 my-10"
-        src={replit}
-        height={250}
-        width={250}
-        alt="REPLIT LOGO"
-      />
-      <Image
-        className="mx-10 my-10"
-        src={filecoin}
-        height={250}
-        width={250}
-        alt="FILECOIN LOGO"
-      />
-      <Image
-        className="mx-10 my-10"
-        src={polygon}
-        height={250}
-        width={250}
-        alt="POLYGON LOGO"
-      />
-      <Image
-        className="mx-10 my-10"
-        src={amura}
-        height={250}
-        width={250}
-        alt="AMURA LOGO"
-      />
-      <Image
-        className="mx-10 my-10"
-        src={mice}
-        height={250}
-        width={250}
-        alt="MICE LOGO"
-      />
+        <Image
+          className="mx-10 my-10"
+          src={devfolio}
+          height={250}
+          width={250}
+          alt="DEVFOLIO LOGO"
+        />
+        <Image
+          className="mx-10 my-10"
+          src={solana}
+          height={250}
+          width={250}
+          alt="SOLANA LOGO"
+        />
+        <Image
+          className="mx-10 my-10"
+          src={replit}
+          height={250}
+          width={250}
+          alt="REPLIT LOGO"
+        />
+        <Image
+          className="mx-10 my-10"
+          src={filecoin}
+          height={250}
+          width={250}
+          alt="FILECOIN LOGO"
+        />
+        <Image
+          className="mx-10 my-10"
+          src={polygon}
+          height={250}
+          width={250}
+          alt="POLYGON LOGO"
+        />
       </div>
       <h1 className=" text-3xl font-semibold text-white pt-12 mb-24">
         To be announced...
