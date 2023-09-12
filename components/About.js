@@ -30,7 +30,7 @@ const About = () => {
           </p>
         </div>
         
-        <div className="flex items-center align-middle justify-center flex-col m-8 p-4">
+        <div className=" md: flex items-center align-middle justify-center flex-col m-8 p-4">
         <Image
         className="m-4"
         src={about}
