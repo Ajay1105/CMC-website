@@ -37,7 +37,7 @@ let FAQ = function () {
     return (
         <div className="flex flex-col justify-center items-center FAQbackground py-10 md:py-20 ">
             <h1 className="text-white text-2xl md:text-4xl font-bold items-center pb-4 text-center ">FAQs</h1>
-            <div className="h-[332px] mb-10 p-6 md:h-80 md:px-10 md:pt-10 md:pb-16 sm:w-8/12 flex flex-col justify-items-center items-center">
+            <div className="w-100 mb-10 p-6 md:h-80 md:px-10 md:pt-10 md:pb-16 sm:w-8/12 flex flex-col justify-items-center items-center">
                 <h2 className="p-4 text-2xl text-center text-white"><b>{qa[index].ques}</b></h2>
                 <h3 className="text-justify mt-10 self-start text-lg text-white">{qa[index].ans}</h3>
             </div>
