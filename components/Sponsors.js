@@ -19,14 +19,14 @@ const Sponsors = () => {
       </h1>
       <div className="flex flex-row flex-wrap justify-around items-center align-middle my-4">
         <Image
-          className="mx-10 my-10"
+          className="mx-10 my-10  rounded-lg"
           src={amura}
           height={250}
           width={250}
           alt="AMURA LOGO"
         />
         <Image
-          className="mx-10 my-10 "
+          className="mx-10 my-10 rounded-lg"
           src={mice2}
           height={250}
           width={250}
