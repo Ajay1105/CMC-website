@@ -20,7 +20,7 @@ const Sponsors = () => {
       <div className="flex flex-row flex-wrap justify-around items-center align-middle my-4">
       <div className="box glowing rounded-lg">
       <Image
-      className="mx-10 my-10  rounded-lg"
+      className="rounded-lg"
       src={amura}
       height={250}
       width={250}
