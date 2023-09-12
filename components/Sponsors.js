@@ -7,7 +7,7 @@ import {
   replit,
   filecoin,
   amura,
-  mice,
+  mice2,
 } from "@/assests";
 import Image from "next/image";
 
@@ -26,8 +26,8 @@ const Sponsors = () => {
           alt="AMURA LOGO"
         />
         <Image
-          className="mx-10 my-10"
-          src={mice}
+          className="mx-10 my-10 "
+          src={mice2}
           height={250}
           width={250}
           alt="MICE LOGO"
