@@ -34,7 +34,7 @@ export default function CPACinfo() {
       imglink: silai,
       event:
         "Covid and Reproductive Health Awareness Event (at Silai centre) of Udaan NGO.",
-    }
+    },
   ];
   return (
     <div className="flex flex-col w-4/5 mx-[10%] blurBlackground rounded-2xl justify-center items-center p-8">
