@@ -1,3 +1,4 @@
+import about from "./about.jpg";
 import Glow from "./Glow.svg";
 import CMCPAC from "./CMCPAC.png";
 import Rtist from "./Rtist.png";
@@ -23,6 +24,7 @@ import buddy from "./buddy.png";
 import hackathon from "./hackathon.png";
 
 export {
+  about,
   alz,
   tb,
   touch,
