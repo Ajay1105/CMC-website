@@ -1,3 +1,8 @@
+import { about } from "@/assests";
+import Link from 'next/link';
+
+import Image from "next/image";
+
 const About = () => {
   return (
     <div className="flex flex-col w-4/5 mx-[10%] blurBlackground rounded-2xl justify-center items-center p-8">
@@ -24,8 +29,15 @@ const About = () => {
             scale.
           </p>
         </div>
-        <div className="flex items-center align-middle justify-center flex-col">
-          <div className="w-72 sm:w-96 mx-10 my-8 h-36 pl-4 bg-[#212631] rounded-lg"></div>
+        
+        <div className="flex items-center align-middle justify-center flex-col m-8 p-4">
+        <Image
+        className="m-4"
+        src={about}
+        height={4000}
+        width={4000}
+        alt="about"
+      />
         </div>
       </div>
     </div>

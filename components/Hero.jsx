@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap mb-40 mt-40 text-base align-middle justify-evenly">
+      <div className="flex flex-wrap mb-40 mt-40 align-middle justify-evenly">
         <Devfolio/>
 
         <div className=" text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 mt-8 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
