@@ -7,7 +7,7 @@ import {
   replit,
   filecoin,
   amura,
-  mice,
+  mice2,
 } from "@/assests";
 import Image from "next/image";
 
@@ -18,20 +18,24 @@ const Sponsors = () => {
         Sponsors
       </h1>
       <div className="flex flex-row flex-wrap justify-around items-center align-middle my-4">
+      <div className="box ml-16 mr-16 mt-16 mb-16 glowing rounded-lg">
+      <Image
+      className="rounded-lg"
+      src={amura}
+      height={250}
+      width={250}
+      alt="AMURA LOGO"
+      />
+      </div>
+        <div className=" ml-16 mr-16 box glowing rounded-lg">
         <Image
-          className="mx-10 my-10"
-          src={amura}
-          height={250}
-          width={250}
-          alt="AMURA LOGO"
+        className="rounded-lg"
+        src={mice2}
+        height={250}
+        width={250}
+        alt="MICE LOGO"
         />
-        <Image
-          className="mx-10 my-10"
-          src={mice}
-          height={250}
-          width={250}
-          alt="MICE LOGO"
-        />
+        </div>
       </div>
       <div className="flex flex-wrap justify-around items-center align-middle">
         <Image

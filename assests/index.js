@@ -12,6 +12,7 @@ import solana from "./solana.png";
 import replit from "./replit.png";
 import filecoin from "./filecoin.png";
 import mice from "./mice.png";
+import mice2 from "./mice2.jpg";
 import amura from "./amura.jpg";
 import alz from "./alz.png";
 import tb from "./tb.png";
@@ -44,6 +45,6 @@ export {
   polygon,
   replit,
   filecoin,
-  mice,
+  mice2,
   amura,
 };
