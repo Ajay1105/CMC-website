@@ -21,6 +21,13 @@ export default function Home() {
         src={Glow}
         width={600}
         height={600}
+        className="absolute top-[5%] md:left-[30%] z--1 overflow-hidden rotate-180"
+      />
+      <Image
+        alt="alr"
+        src={Glow}
+        width={600}
+        height={600}
         className="absolute top-[18%] md:left-[40%] z--1 overflow-hidden rotate-180"
       />
       <Image
