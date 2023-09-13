@@ -37,8 +37,19 @@ export default function Rtistinfo() {
         </h1>
         <div className="flex flex-col text-[#D4D0D3] flex-wrap text-justify sm:pt-12 sm:pb-12 sm:pl-12 sm:pr-4">
           <p>
-            A diverse group of over-enthused robotics nerds who find roots
-            across all academic departments of the institute.
+            Rtist is the official robotics club of NIT JALANDHAR. The club is a
+            dynamic and innovative community of passionate students dedicated to
+            the exciting world of robotics. With a shared love for technology,
+            automation, and problem-solving, the club serves as a hub for
+            like-minded individuals to collaborate, learn, and explore the
+            fascinating realm of robotics. From designing and building robots
+            for competitions to hosting workshops and outreach events, the club
+            provides a platform for students to develop their technical skills,
+            foster creativity, and deepen their understanding of robotics and
+            artificial intelligence.Within the club, members often engage in
+            hands-on projects, ranging from building autonomous vehicles and
+            robotic arms to developing computer vision systems and AI-driven
+            solutions.
           </p>
         </div>
       </div>
