@@ -22,11 +22,18 @@ import covid from "./covid.png";
 import cancer from "./cancer.png";
 import buddy from "./buddy.png";
 import hackathon from "./hackathon.png";
-import amaze from './amaze.jpg';
-import line from './line.jpg';
-import intro from './intro.jpg'
+import amaze from "./amaze.jpg";
+import line from "./line.jpg";
+import intro from "./intro.jpg";
+import lumen from './lumen.jpg';
+import smart from './smart.jpg';
 
 export {
+  amaze,
+  line,
+  intro,
+  lumen,
+  smart,
   about,
   alz,
   tb,
