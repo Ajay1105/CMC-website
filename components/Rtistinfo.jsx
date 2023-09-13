@@ -63,13 +63,12 @@ export default function Rtistinfo() {
             className="flex flex-wrap blurBlackground justify-center align-middle  rounded-2xl m-8 p-4 sm:w-1/2 lg:w-1/3"
             key={d.id}
           >
-            <div className="w-full">
+            <div className="w-full flex flex-col justify-center align-middle items-center">
               <div>
                 <Image
                   src={d.imglink}
                   height={300}
                   width={500}
-                  objectFit="cover"
                   alt="image"
                 />
               </div>
