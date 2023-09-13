@@ -9,5 +9,6 @@ import Organizers from "./Organizers";
 import Footer from './Footer';
 import Devfolio from "./Devfolio";
 import CPACinfo from "./CPACinfo";
+import Rtistinfo from "./Rtistinfo";
 
-export {Navbar, Hero, About, Prize, Timeline, Sponsors, FAQ, Organizers, Footer, Devfolio, CPACinfo};
+export {Navbar, Hero, About, Prize, Timeline, Sponsors, FAQ, Organizers, Footer, Devfolio, Rtistinfo, CPACinfo};

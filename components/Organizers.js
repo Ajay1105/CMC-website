@@ -19,7 +19,7 @@ const Organizers = () => {
             alt="Rtist"
           />
           <div className=" text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
-            <a href="https://v1.nitj.ac.in/rtist/">About Rtist</a>
+            <a href="/rtist">About Rtist</a>
           </div>
         </div>
 

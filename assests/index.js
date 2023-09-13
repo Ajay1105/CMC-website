@@ -22,6 +22,9 @@ import covid from "./covid.png";
 import cancer from "./cancer.png";
 import buddy from "./buddy.png";
 import hackathon from "./hackathon.png";
+import amaze from './amaze.jpg';
+import line from './line.jpg';
+import intro from './intro.jpg'
 
 export {
   about,
