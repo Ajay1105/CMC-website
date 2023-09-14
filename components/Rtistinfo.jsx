@@ -33,7 +33,7 @@ export default function Rtistinfo() {
     <>
       <div className="flex flex-col w-4/5 mx-[10%] blurBlackground rounded-2xl justify-center items-center p-8 mt-12">
         <h1 className=" font-bold font-sans text-4xl text-white p-4">
-          About CMC-PAC
+          About Rtist NITJ
         </h1>
         <div className="flex flex-col text-[#D4D0D3] flex-wrap text-justify sm:pt-12 sm:pb-12 sm:pl-12 sm:pr-4">
           <p>
