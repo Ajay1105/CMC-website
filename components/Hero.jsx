@@ -32,10 +32,9 @@ const Hero = () => {
         </div>
       </div>
 
+      
       <div className="flex flex-wrap mb-40 mt-40 align-middle justify-evenly">
-        <Devfolio/>
-
-        
+        <Devfolio/> 
       </div>
     </>
   );

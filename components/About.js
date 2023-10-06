@@ -40,6 +40,10 @@ const About = () => {
       />
         </div>
       </div>
+      <div className=" text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
+            <a href="/rtist">RuleBook</a>
+          </div>
+      
     </div>
   );
 };
