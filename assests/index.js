@@ -27,6 +27,8 @@ import line from "./line.jpg";
 import intro from "./intro.jpg";
 import lumen from './lumen.jpg';
 import smart from './smart.jpg';
+import navan from './navan.png';
+import orangewood from './orangewood.png';
 
 export {
   amaze,
@@ -57,4 +59,6 @@ export {
   filecoin,
   mice2,
   amura,
+  navan,
+  orangewood,
 };
