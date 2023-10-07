@@ -10,6 +10,8 @@ import {
   mice2,
   navan,
   orangewood,
+  Hll,
+  Amsa,
 } from "@/assests";
 import Image from "next/image";
 
@@ -51,7 +53,21 @@ const Sponsors = () => {
       <div className="flex flex-wrap justify-around items-center align-middle">
         <Image
           className="mx-10 my-10"
+          src={Hll}
+          height={250}
+          width={250}
+          alt="DEVFOLIO LOGO"
+        />
+        <Image
+          className="mx-10 my-10"
           src={navan}
+          height={250}
+          width={250}
+          alt="DEVFOLIO LOGO"
+        />
+        <Image
+          className="mx-10 my-10"
+          src={Amsa}
           height={250}
           width={250}
           alt="DEVFOLIO LOGO"

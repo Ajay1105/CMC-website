@@ -29,6 +29,8 @@ import lumen from './lumen.jpg';
 import smart from './smart.jpg';
 import navan from './navan.png';
 import orangewood from './orangewood.png';
+import Hll from './Hll.jpg';
+import Amsa from './Amsa.png'
 
 export {
   amaze,
@@ -61,4 +63,6 @@ export {
   amura,
   navan,
   orangewood,
+  Hll,
+  Amsa
 };
