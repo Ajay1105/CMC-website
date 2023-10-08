@@ -102,7 +102,7 @@ const Sponsors = () => {
             alt="SOLANA LOGO"
           />
         </a>
-        <a className="https://replit.com/">
+        <a href="https://replit.com/">
           <Image
             className="mx-10 my-10"
             src={replit}
