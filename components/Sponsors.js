@@ -84,41 +84,51 @@ const Sponsors = () => {
             alt="DEVFOLIO LOGO"
           />
         </a>
-        <Image
-          className="mx-10 my-10"
-          src={devfolio}
-          height={250}
-          width={250}
-          alt="DEVFOLIO LOGO"
-        />
-        <Image
-          className="mx-10 my-10"
-          src={solana}
-          height={250}
-          width={250}
-          alt="SOLANA LOGO"
-        />
-        <Image
-          className="mx-10 my-10"
-          src={replit}
-          height={250}
-          width={250}
-          alt="REPLIT LOGO"
-        />
-        <Image
-          className="mx-10 my-10"
-          src={filecoin}
-          height={250}
-          width={250}
-          alt="FILECOIN LOGO"
-        />
-        <Image
-          className="mx-10 my-10"
-          src={polygon}
-          height={250}
-          width={250}
-          alt="POLYGON LOGO"
-        />
+        <a href="https://devfolio.co/">
+          <Image
+            className="mx-10 my-10"
+            src={devfolio}
+            height={250}
+            width={250}
+            alt="DEVFOLIO LOGO"
+          />
+        </a>
+        <a href="https://solana.com/">
+          <Image
+            className="mx-10 my-10"
+            src={solana}
+            height={250}
+            width={250}
+            alt="SOLANA LOGO"
+          />
+        </a>
+        <a className="https://replit.com/">
+          <Image
+            className="mx-10 my-10"
+            src={replit}
+            height={250}
+            width={250}
+            alt="REPLIT LOGO"
+          />
+        </a>
+        <a href="https://filecoin.io/">
+          <Image
+            className="mx-10 my-10"
+            src={filecoin}
+            height={250}
+            width={250}
+            alt="FILECOIN LOGO"
+          />
+        </a>
+        <a href="https://polygon.technology/home">
+          <Image
+            className="mx-10 my-10"
+            src={polygon}
+            height={250}
+            width={250}
+            alt="POLYGON LOGO"
+          />
+        </a>
       </div>
     </div>
 
