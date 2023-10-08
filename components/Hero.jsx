@@ -1,14 +1,13 @@
 import { MedicalShield, Arduino, RoboticArm, devfolio } from "@/assests";
 import { Devfolio } from "./index.js";
 
-import dynamic from 'next/dynamic'
- 
-const NoSSR = dynamic(() => import('./Devfolio.jsx'), { ssr: false })
+import dynamic from "next/dynamic";
+
+const NoSSR = dynamic(() => import("./Devfolio.jsx"), { ssr: false });
 
 import Image from "next/image";
 
 const Hero = () => {
-
   return (
     <>
       <div className="relative flex flex-col justify-around items-center align-middle lg:mt-5 lg:m-20 h-fit">
@@ -32,9 +31,16 @@ const Hero = () => {
         </div>
       </div>
 
-      
-      <div className="flex flex-wrap mb-40 mt-40 align-middle justify-evenly">
-        <Devfolio/> 
+      <div className="flex flex-wrap flex-col mb-40 mt-40 align-middle text-center justify-center">
+        {/* <Devfolio/> */}
+        <a href="https://forms.gle/hbQEfFDaj5E3MU2q8">
+          <button className=" bg-blue-400 rounded-md px-6 py-2 text-xl italic font-semibold">
+            Apply
+          </button>
+        </a>
+        <p className="mt-4 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
+          Registration extended till 12 Oct 2023
+        </p>
       </div>
     </>
   );
