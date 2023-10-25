@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
 
         <div className="flex text-white md:text-7xl font-bold px-23 mx-3 mt-40 translate-y-204 justify-center align-middle text-center">
-          <h1 className="text-8xl">HACKING HEALTH</h1>
+          <h1 className="text-7xl">HACKING HEALTH</h1>
         </div>
         <div className="flex text-white text-xl md:text-3xl font-normal px-23 mx-3 mt-7 translate-y-204 justify-center align-middle text-center">
           Code a Better Future at Hacking Health!
