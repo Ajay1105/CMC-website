@@ -19,9 +19,23 @@ export default function Home() {
       <Image
         alt="alr"
         src={Glow}
+        width={500}
+        height={500}
+        className="absolute top-[5%] md:left-[35%] z--1 overflow-hidden rotate-180"
+      />
+      <Image
+        alt="alr"
+        src={Glow}
         width={600}
         height={600}
-        className="absolute top-[5%] md:left-[30%] z--1 overflow-hidden rotate-180"
+        className="absolute top-[8%] md:left-[60%] z--1 overflow-hidden rotate-0"
+      />
+      <Image
+        alt="alr"
+        src={Glow}
+        width={600}
+        height={600}
+        className="absolute top-[8%] md:left-[0.1%] z--1 overflow-hidden rotate-0"
       />
       <Image
         alt="alr"

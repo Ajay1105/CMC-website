@@ -1,3 +1,4 @@
+"use client"
 import { MedicalShield, Arduino, RoboticArm, devfolio } from "@/assests";
 import { Devfolio } from "./index.js";
 
@@ -23,8 +24,8 @@ const Hero = () => {
           <Image className="mx-0 my-95" src={RoboticArm} alt="RoboticArm" />
         </div>
 
-        <div className="flex text-white text-4xl md:text-7xl font-bold px-23 mx-3 mt-40 translate-y-204 justify-center align-middle text-center">
-          HACKING HEALTH
+        <div className="flex text-white md:text-7xl font-bold px-23 mx-3 mt-40 translate-y-204 justify-center align-middle text-center">
+          <h1 className="text-8xl">HACKING HEALTH</h1>
         </div>
         <div className="flex text-white text-xl md:text-3xl font-normal px-23 mx-3 mt-7 translate-y-204 justify-center align-middle text-center">
           Code a Better Future at Hacking Health!
@@ -35,7 +36,7 @@ const Hero = () => {
         {/* <Devfolio/> */}
         <a href="https://forms.gle/hbQEfFDaj5E3MU2q8">
           <button className="text-white rounded-xl font-semibold align-middle justify-center py-3 px-6 bg-[#C086EA] hover:bg-blue-600 transition duration-300">
-            Apply
+            Register
           </button>
         </a>
         
